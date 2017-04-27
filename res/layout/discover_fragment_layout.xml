@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/hair_topic_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/zone_title_bg"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="15.0dip" >
+     <RadioGroup
+            android:id="@+id/hair_radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginBottom="7.5dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/btn_new_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                
+                android:button="@null"
+                android:gravity="center"
+                android:text="花友社区"
+                android:textColor="@drawable/wp_text_selector"
+                android:textSize="20.0sp" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <com.lan.nicehair.widget.TopBarView
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+       
+     <WebView 
+   
+      android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    android:id="@+id/webView"
+    />
+
+     
+
+</LinearLayout>

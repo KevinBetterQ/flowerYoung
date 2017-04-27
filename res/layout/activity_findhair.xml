@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/hair_topic_layout" />
+
+    <LinearLayout
+        android:id="@+id/layout_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#B3EE3A"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="15.0dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="养花专场"
+            android:textColor="@color/white"
+            android:textSize="21.5sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hair_topic_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="15.0dip" >
+
+        <RadioGroup
+            android:id="@+id/hair_radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7.5dip"
+            android:background="@drawable/tab_bg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/btn_recomm_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/radio_recomm_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/find_recomm_tag_text"
+                android:textColor="@drawable/wp_text_selector2"
+                android:textSize="15.0sp" />
+
+            <RadioButton
+                android:id="@+id/btn_new_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/radio_recomm_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/find_new_tag_text"
+                android:textColor="@drawable/wp_text_selector2"
+                android:textSize="15.0sp" />
+
+            <RadioButton
+                android:id="@+id/btn_main_topic_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/radio_recomm_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/find_main_topic_tag_text"
+                android:textColor="@drawable/wp_text_selector2"
+                android:textSize="15.0sp" />
+            
+            <RadioButton
+                android:id="@+id/btn_video_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/radio_recomm_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="视频养花"
+              
+                android:textColor="@drawable/wp_text_selector2"
+                android:textSize="15.0sp" />
+            
+            <RadioButton
+                android:id="@+id/btn_data_tag"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/radio_recomm_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="智能养花"
+                android:textColor="@drawable/wp_text_selector2"
+                android:textSize="15.0sp" />
+            
+        </RadioGroup>
+    </RelativeLayout>
+
+</RelativeLayout>
