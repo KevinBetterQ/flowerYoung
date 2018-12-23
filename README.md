@@ -22,8 +22,18 @@
 
 除主要功能板块外，还有一系列的附加小功能，如：猜花谜、关于花的小游戏、签到领花瓣等，力求为养花爱好者提供一个功能全面、新鲜有趣的养花工具。
 
-## APP展示
-
-
 ## Authors
 qiwenkaikai@qq.com
+
+## APP展示
+<img src="images/img1.png" width = 20% div align=center />
+<img src="images/img2.png" width = 20% div align=center />
+<img src="images/img3.png" width = 20% div align=center />
+<img src="images/img4.png" width = 20% div align=center />
+<img src="images/img5.png" width = 20% div align=center />
+<img src="images/img6.png" width = 20% div align=center />
+<img src="images/img7.png" width = 20% div align=center />
+<img src="images/img8.png" width = 20% div align=center />
+<img src="images/img9.png" width = 20% div align=center />
+
+
